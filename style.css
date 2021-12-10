@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+  
+} 
+
+body{
+    background-color: #94D9EA;
+}
+.main-content{
+    min-height: 100vh;
+    width: 80%;
+    margin:2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
+.left-section{
+    grid-column: span 2;
+    height: 100%;
+    background-color:#009DAE;
+}
+
+.right-section{
+    grid-column: span 5;
+    background-color:white;
+    height: 100%;
+}
+
+.profile{
+    /* width: 100%; */
+    border-bottom: 1px solid #00070a ;
+    border-left-width: 2px;
+    margin-top: 5px;
+    margin-left:7px;
+
+}
+.left-content{
+    padding: 1rem 3rem;
+}
+
+.profile img{
+    width: 50%;
+    border-radius: 50%;
+    border: 1px solid #00070a ;
+    margin-left: 74px;
+}
+.name{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.5 0;
+}
+
+.career{
+    font-size:0.8rem ;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.main-title{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    padding-top: 0.2rem;
+    padding-left: 22px;
+    margin-top: 8px;
+    margin-bottom: 7px;
+}
+
+.contact-list ul{
+    padding: 2rem 0;
+}
+
+.contact-info ul li{
+    padding: .4rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info ul li i{
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    color: #2D9CBD;
+    padding-left: 22px;
+}
+
+
+
+.progress-bar{
+    width: 76%;
+    height: .4rem;
+    background-color: #222222;
+    position: relative;
+    border-radius: 12px;
+}
+
+/* .progress{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: yellow;
+    border-radius: 12px;
+} */
+
+.skills-section{
+    padding-top: 2rem;
+}
+
+.skill-box{
+    padding-left: 22px;
+    padding-top: 6px;
+    margin-bottom: 10px;
+}
+
+.skill-title{
+    text-transform: uppercase;
+    color: black;
+    font-size: 0.8rem;
+}
+
+.right-main-content{
+    padding: 2rem 3rem;
+}
+
+.right-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2F80ED;
+    margin-bottom: 1.2rem;
+    position: relative;
+}
+
+/* .right-title::after{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: .3rem;
+    background-color: #2D9CBD;
+    right: 0;
+    border-radius: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+} */
+
+.para{
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1.1rem;
+}
+
+.timeline{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.tl-title{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: #002333;
+    text-transform: uppercase;
+}
+
+.tl-title-2{
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #2D9CBD;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 52px;
+}
+
+.tl-content{
+    border-left: 1px solid rgb(14, 12, 12);
+    padding-left:2rem ;
+}
+
